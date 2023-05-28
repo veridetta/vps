@@ -1,0 +1,48 @@
+
+Script Executive Konoha
+veridetta/vps/
+
+
+edited:
+- menu.sh
+- izin
+- backup/set-br.sh
+- updateyes.sh
+- Insshws/insshws.sh
+- Themes/thema.sh
+- Themes/menu2.sh
+- ipsec/ipsec.sh
+- autoscript-ssh-slowdns-main/ssh-vpn/setup.sh
+- menu/update.sh
+- README.md
+- ins-xray1.sh
+- autoscript-ssh-slowdns-main/install
+- Themes/menu3.sh
+- Themes/menu1.sh
+- trial/trial.sh
+- menu/usernew.sh
+- issue.net
+- cyber-trojan-tes/menu-cyber.sh
+- tes/menu-vless.sh
+- menu-backup.sh
+- autoscript-ssh-slowdns-main/slowdns
+- autoscript-ssh-slowdns-main/slowssh/slowdns-ssh
+- tes/ins-xray.sh
+- autoscript-ssh-slowdns-main/ssh-vpn/ssh-vpn.sh
+- limit/autokill.sh
+- limit/info.sh
+- cyber-trojan-tes/config.json
+- limit/pelanggar.sh
+- Finaleuy/chatid.sh
+- autoscript-ssh-slowdns-main/wslow2.sh
+- tes/delv2ray.sh
+- limit/tendang.sh
+- menu/restart.sh
+- ipsec/addpptp.sh
+- ipsec/delpptp.sh
+- ipsec/dell2tp.sh
+- ipsec/addl2tp.sh
+- Insshws/ws-stunnel.txt
+- Insshws/dropbear-ws.py.txt
+- autoscript-ssh-slowdns-main/ssh-vpn/ws-ovpn.py
+- Insshws/openssh-socket.py.txt
