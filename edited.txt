@@ -46,3 +46,40 @@ edited:
 - Insshws/dropbear-ws.py.txt
 - autoscript-ssh-slowdns-main/ssh-vpn/ws-ovpn.py
 - Insshws/openssh-socket.py.txt
+
+decrypt
+- ins-xray.sh
+cat ins-xray.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> ins-xray-2.sh
+
+- menu-ssh.sh
+cat menu-ssh.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> menu-ssh-2.sh
+
+- myvpn.sh
+
+- senmenu.sh
+cat senmenu.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> senmenu-2.sh
+
+- autoscript-ssh-slowdns-main/slowdns.sh
+cat slowdns.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> slowdns-2.sh
+- autoscript-ssh-slowdns-main/ssh-vpn.sh
+cat ssh-vpn.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> ssh-vpn-2.sh
+
+- limit/user-lock.sh
+cat user-lock.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> user-lock-2.sh
+- limit/user-unlock.sh
+cat user-unlock.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> user-unlock-2.sh
+
+- Ssh udp menu/insudp.sh
+cat insudp.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> insudp-2.sh
+- Ssh udp menu/addssh.sh
+cat addssh.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> addssh-2.sh
+- Ssh udp menu/menush.sh
+cat menush.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> menush-2.sh
+
+- tes/menu-vmess.sh
+cat menu-vmess.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> menu-vmess-2.sh
+- tes/menu-trojan.sh
+cat menu-trojan.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> menu-trojan-2.sh
+- tes/menu-ss.sh
+cat menu-ss.sh | tr ';' '\n' | grep 'RzE=' | cut -d '"' -f2 | tr ' ' '\n' | rev | base64 -d >> menu-ss-2.sh
+
